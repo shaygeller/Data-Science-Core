@@ -14,6 +14,8 @@ Usually the goals will be in this form:
 4. "I know Kung Fu"- Hands on experience
 
 
+I assume you have a basic knowledge of a graduate Compute Science student (of course you may forgot few things, but I assume you are able to self-learn most of the stuff I'm not dive in to)
+
 Technical details:
 I'm running the Jupyter notebook within conda environment.
 I installed Anacoda with python2.7.
