@@ -1,0 +1,12 @@
+
+
+Notebooks to do:
+Data preprocessing - Missing values
+                     Handle categorical data
+                     Feature scaling (Normalization,Standardisation)
+
+
+
+
+Notebooks done:
+Statistics - P value
