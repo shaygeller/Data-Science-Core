@@ -1,0 +1,27 @@
+This file is taken from johndpope's github. Thanks!
+
+//OSX or Linux
+conda create -n tensorflow python=3.5
+source activate tensorflow
+conda install pandas matplotlib jupyter notebook scipy scikit-learn nb_conda nltk  spyder 
+conda install -c conda-forge tensorflow keras
+pip install gym
+
+
+//Windows
+conda create -n tensorflow python=3.5
+activate tensorflow
+conda install pandas matplotlib jupyter notebook scipy scikit-learn nltk
+conda install -c conda-forge tensorflow keras
+
+// Pygam / RL
+brew install sdl sdl_ttf sdl_image sdl_mixer portmidi  wget
+conda install -c cogsci pygame 
+
+
+
+Python 2.7
+conda create -n tensorflow-p2 python=2.7
+source activate tensorflow-p2
+conda install numpy pandas matplotlib tensorflow jupyter notebook scipy scikit-learn nb_conda  nltk 
+conda install -c auto multiprocessing statsmodels
