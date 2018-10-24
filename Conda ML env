@@ -1,5 +1,7 @@
 This file is taken from johndpope's github. Thanks!
 
+Conda cheetshit - https://conda.io/docs/_downloads/conda-cheatsheet.pdf
+
 //OSX or Linux
 conda create -n tensorflow python=3.5
 source activate tensorflow
