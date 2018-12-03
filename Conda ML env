@@ -9,6 +9,7 @@ conda update --all
 # For deep learning
 # Install CUDA Toolkit & cuDNN from here https://developer.nvidia.com/cuda-downloads
 # If have problems check this link https://towardsdatascience.com/setup-an-environment-for-machine-learning-and-deep-learning-with-anaconda-in-windows-5d7134a3db10
+# For cuda problems look here https://www.pugetsystems.com/labs/hpc/Install-TensorFlow-with-GPU-Support-on-Windows-10-without-a-full-CUDA-install-1172/
 
 
 //OSX or Linux
