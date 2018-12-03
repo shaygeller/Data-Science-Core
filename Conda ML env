@@ -2,8 +2,17 @@ This file is taken from johndpope's github. Thanks!
 
 Conda cheetshit - https://conda.io/docs/_downloads/conda-cheatsheet.pdf
 
+# Run this first in any environment
+conda update conda
+conda update --all
+
+# For deep learning
+# Install CUDA Toolkit & cuDNN from here https://developer.nvidia.com/cuda-downloads
+# If have problems check this link https://towardsdatascience.com/setup-an-environment-for-machine-learning-and-deep-learning-with-anaconda-in-windows-5d7134a3db10
+
+
 //OSX or Linux
-conda create -n tensorflow python=3.5
+conda create -n tensorflow python=3.6
 source activate tensorflow
 conda install pandas matplotlib jupyter notebook scipy scikit-learn nb_conda nltk  spyder 
 conda install -c conda-forge tensorflow keras
@@ -11,7 +20,14 @@ pip install gym
 
 
 //Windows
-conda create -n tensorflow python=3.5
+conda create -n tensorflow python=3.6
+activate tensorflow
+conda install pandas matplotlib jupyter notebook scipy scikit-learn nltk
+pip install tensorflow-gpu (or just tensoflow for cpu only)
+pip install keras
+
+or 
+conda create -n tensorflow python=3.6
 activate tensorflow
 conda install pandas matplotlib jupyter notebook scipy scikit-learn nltk
 conda install -c conda-forge tensorflow keras
