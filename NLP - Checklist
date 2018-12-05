@@ -1,0 +1,26 @@
+Basic feature extraction using text data
+		Number of words
+		Number of characters
+		Average word length
+		Number of stopwords
+		Number of special characters
+		Number of numerics
+		Number of uppercase words
+Basic Text Pre-processing of text data
+		Lower casing
+		Punctuation removal
+		Stopwords removal
+		Frequent words removal
+		Rare words removal
+		Spelling correction
+		Tokenization
+		Stemming
+		Lemmatization
+Advance Text Processing
+		N-grams
+		Term Frequency
+		Inverse Document Frequency
+		Term Frequency-Inverse Document Frequency (TF-IDF)
+		Bag of Words
+		Sentiment Analysis
+		Word Embedding
